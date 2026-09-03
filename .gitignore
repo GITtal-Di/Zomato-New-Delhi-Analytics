@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# PostgreSQL backup files
+*.sql.bak
+*.dump
+
+# Large datasets
+*.csv
+*.xlsx
+*.xls
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Python testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
